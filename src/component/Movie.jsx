@@ -30,11 +30,10 @@ export default function Movie() {
             excepturi sit eos a quasi.
           </p>
           <br />
-
-          <a className="a1" href="#">
-            Watch <ion-icon name="play-circle-outline"></ion-icon>
-          </a>
         </div>
+        <a className="a1" href="#">
+          Watch <ion-icon name="play-circle-outline"></ion-icon>
+        </a>
         {/* <img src={img3} alt="" className="m-img2" /> */}
       </div>
       <div className="more-1row">
