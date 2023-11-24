@@ -1,7 +1,7 @@
 .for-you {
   max-width: 100%;
   margin-right: auto;
-  margin-left: 0rem;
+  margin-left: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, auto));
   gap: 0.5rem;
@@ -11,12 +11,12 @@
 .box .box-img {
   margin-top: 2rem;
   width: 100%;
-  height: 50vh;
+  height: 56vh;
 }
 
 .box .box-img img {
   width: 100%;
-  height: 100%;
+  height: 55vh;
   object-fit: cover;
 }
 
