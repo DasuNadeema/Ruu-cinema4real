@@ -1,0 +1,59 @@
+.footer {
+  border-top: 1px solid rgb(252, 252, 252);
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.t-home a {
+  text-transform: uppercase;
+  color: aliceblue;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.t-home a:hover {
+  background-color: red;
+  color: aliceblue;
+  transition: ease-in-out 0.35s;
+}
+
+.btn-footer {
+  width: 100%;
+  height: 10vh;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about img {
+  overflow: hidden;
+  margin-left: 6rem;
+  position: absolute;
+  width: 90%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.f-link {
+  display: flex;
+  text-align: left;
+  margin-left: 2rem;
+  column-gap: 0.5rem;
+}
+
+.f-link .bx {
+  background: aliceblue;
+  padding: 2px;
+  font-size: 2rem;
+  border-radius: 50%;
+  border: 2px solid rgba(2, 3, 7, 0.4);
+  color: rgb(0, 0, 0);
+}
+
+.f-link .bx:hover {
+  background: red;
+  color: aliceblue;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import "../pages/Card.css";
-import gag1 from "../images/Mini/Tiger-3.jpg";
-import tag2 from "../images/Mini/bshCGAHZRldAfdxXDX3637PW9cR.jpg";
-import tag3 from "../images/Mini/t3ZFXwFiyOobmE2GVEE5TrRdGAn.jpg";
-import tag4 from "../images/Mini/uZJGMFgE1Q9xpncVAu1G3Vce4nP.jpg";
+import gag1 from "../images/Mini/075f284bd2a54e4c9f554d37578986ed.webp";
+import tag2 from "../images/Mini/MV5BNWQ5NGE2YjctYjc0Yi00Yzc1LTgxYTMtMTZiOTU2ZDRiODIwXkEyXkFqcGdeQXVyNjk1Njg5NTA@.webp";
+import tag3 from "../images/Mini/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@.webp";
+import tag4 from "../images/Mini/Tiger-3.jpg";
 import tag5 from "../images/Mini/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg";
 import tag6 from "../images/Mini/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg";
 import tag7 from "../images/Mini/vN0rKik0oCSfFmMFoH7qicPhcHj.jpg";
@@ -122,7 +122,7 @@ function Card() {
           <div className="box-img">
             <img src={tag15} alt="" />
           </div>
-          <h3>Teenage Ka</h3>
+          <h3>Teenage Kraken</h3>
           <span>120min | Action</span>
         </div>{" "}
         {/* <div className="box">

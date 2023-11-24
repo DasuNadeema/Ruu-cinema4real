@@ -6,6 +6,7 @@ import Main from "./pages/Main";
 import Schedule from "./pages/Schedule";
 import Card from "./pages/Card";
 import Tv from "./pages/Tv";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Movie />
       <Main />
       <Tv />
+      <Footer />
     </>
   );
 }

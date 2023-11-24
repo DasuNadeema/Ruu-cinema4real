@@ -4,14 +4,12 @@ import img1 from "../images/7448.png";
 import img2 from "../images/1338709.png";
 import img3 from "../images/714381.jpg";
 import tag1 from "../images/Mini/The-Killing-Vote-2023.jpg";
-import gag1 from "../images/Mini/Tiger-3.jpg";
-import tag2 from "../images/Mini/bshCGAHZRldAfdxXDX3637PW9cR.jpg";
-import tag3 from "../images/Mini/t3ZFXwFiyOobmE2GVEE5TrRdGAn.jpg";
-import tag4 from "../images/Mini/uZJGMFgE1Q9xpncVAu1G3Vce4nP.jpg";
-import tag5 from "../images/Mini/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg";
-import tag6 from "../images/Mini/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg";
-import tag7 from "../images/Mini/vN0rKik0oCSfFmMFoH7qicPhcHj.jpg";
-import tag8 from "../images/Mini/xzlMB1nGJtMhr2GnecpHIh7XUZe.jpg";
+import gag1 from "../images/Mini/ruby-gillman-teenage-kraken.webp";
+import tag2 from "../images/Mini/inception_v_dd_ka_tt_2000x3000_300dpi_en.jpg";
+import tag3 from "../images/Mini/oppenheimer-poster-560x880-639a268b12999-1.webp";
+import tag4 from "../images/Mini/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@.webp";
+import tag5 from "../images/Mini/157259.jpg";
+import tag6 from "../images/Mini/Daedwood.jpg";
 
 export default function Movie() {
   return (
