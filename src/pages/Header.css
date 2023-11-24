@@ -31,7 +31,7 @@ header.scrolled {
   text-transform: uppercase;
 } */
 
-img {
+.logo img {
   width: 100%;
   height: 18vh;
   padding-right: 5rem;
@@ -48,8 +48,6 @@ img {
 
 button {
   border: 1px solid aliceblue;
-  padding-left: 30px;
-  padding-right: 30px;
   padding: 11px;
   color: rgb(255, 255, 255);
   background-color: black;

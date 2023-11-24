@@ -1,17 +1,17 @@
 .for-you {
-  max-width: 968px;
+  max-width: 100%;
   margin-right: auto;
-  margin-left: 4rem;
+  margin-left: 0rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, auto));
-  gap: 1rem;
+  gap: 0.5rem;
   margin-top: 2rem;
 }
 
 .box .box-img {
   margin-top: 2rem;
-  width: 150%;
-  height: 300px;
+  width: 100%;
+  height: 50vh;
 }
 
 .box .box-img img {

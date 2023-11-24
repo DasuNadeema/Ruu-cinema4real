@@ -23,11 +23,11 @@ function Footer() {
                 <i class="bx bxl-tiktok"></i>
               </a>
             </div>
-          </div>
-          <div className="t-home">
-            <a className="to-home" href="#">
-              Back To Home
-            </a>
+            <div className="t-home">
+              <a className="to-home" href="#">
+                Back To Home
+              </a>
+            </div>
           </div>
         </div>
       </div>
