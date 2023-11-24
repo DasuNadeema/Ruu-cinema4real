@@ -1,0 +1,73 @@
+header {
+  height: 25vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+  z-index: 10000;
+  transition: 0.5s;
+}
+
+header.scrolled {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid var(--primary);
+  border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
+    30;
+  backdrop-filter: blur(20px);
+  padding: 10px 100px;
+}
+/*
+.logo {
+  font-family: "Racing sans one", cursive;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+} */
+
+img {
+  width: 100%;
+  height: 18vh;
+  padding-right: 5rem;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a:hover {
+  color: red;
+  transition: ease-in-out 0.45s;
+}
+
+button {
+  border: 1px solid aliceblue;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 11px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  border-radius: 10px;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: rgb(201, 0, 33);
+  transition: ease-in-out 0.45s;
+}
+
+button a:hover {
+  color: rgb(0, 0, 0);
+  transition: ease-in-out 0.45s;
+}

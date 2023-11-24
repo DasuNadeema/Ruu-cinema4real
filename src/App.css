@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,700&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: red;
+}
+
+body {
+  max-width: 100%;
+  background-color: black;
+  font-family: "Roboto" sans-serif;
+}
