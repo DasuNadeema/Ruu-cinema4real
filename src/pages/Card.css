@@ -10,13 +10,13 @@
 
 .box .box-img {
   margin-top: 2rem;
-  width: 100%;
-  height: 50vh;
+  width: 95%;
+  height: 320px;
 }
 
 .box .box-img img {
-  width: 100%;
-  height: 50vh;
+  width: 95%;
+  height: 320px;
   object-fit: cover;
 }
 
