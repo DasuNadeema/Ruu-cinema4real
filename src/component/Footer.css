@@ -1,7 +1,7 @@
 .footer {
-  width: 100%;
+  width: 104%;
   height: 100%;
-  background-color: transparent;
+  background-color: rgba(43, 40, 40, 0);
   margin-bottom: 0rem;
 }
 
@@ -11,7 +11,7 @@
   text-decoration: none;
   border-radius: 10px;
   border: 1px solid red;
-  padding: 10px;
+  padding: 9px;
 }
 
 .t-home a:hover {
@@ -22,7 +22,7 @@
 
 .btn-footer {
   width: 100%;
-  height: 14vh;
+  height: 18vh;
   margin-top: 1rem;
   text-align: right;
 }
@@ -30,13 +30,14 @@
 .about img {
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 30%;
   object-fit: cover;
   object-position: center;
   z-index: 1100;
 }
 
 .f-link {
+  margin-top: 2rem;
   width: 100%;
   display: flex;
   text-align: left;
@@ -46,8 +47,8 @@
 
 .f-link .bx {
   background: aliceblue;
-  padding: 2px;
-  font-size: 2rem;
+  padding: 10px;
+  font-size: 1.5rem;
   border-radius: 50%;
   border: 2px solid rgba(2, 3, 7, 0.4);
   color: rgb(0, 0, 0);
@@ -56,4 +57,41 @@
 .f-link .bx:hover {
   background: red;
   color: aliceblue;
+}
+
+@media (max-width: 992px) {
+  .about img {
+    position: absolute;
+    width: 105%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1100;
+  }
+}
+
+@media (max-width: 992px) {
+  .f-link .bx {
+    font-size: 1.3rem;
+  }
+
+  .f-link {
+    margin-left: 2rem;
+  }
+
+  .about img {
+    height: 20%;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 600px) {
+  .f-link {
+    margin-left: 1rem;
+  }
+  .f-link .bx {
+    font-size: 1rem;
+  }
 }

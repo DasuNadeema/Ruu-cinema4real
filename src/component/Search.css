@@ -32,3 +32,21 @@
   color: aliceblue;
   border-right: 1px solid aliceblue;
 }
+
+@media (max-width: 1200px) {
+  .search {
+    width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .search {
+    margin-left: 0rem;
+    width: 150px;
+  }
+
+  .search input {
+    width: 100%;
+    border: 1px solid rgba(255, 0, 0, 0.801);
+  }
+}

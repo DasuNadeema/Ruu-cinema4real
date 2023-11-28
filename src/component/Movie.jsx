@@ -36,14 +36,41 @@ export default function Movie() {
         </a>
         {/* <img src={img3} alt="" className="m-img2" /> */}
       </div>
-      <div className="more-1row">
-        <img src={gag1} alt="" className="mo-img" />
-        <img src={tag2} alt="" className="mo-img" />
-        <img src={tag3} alt="" className="mo-img" />
-        <img src={tag4} alt="" className="mo-img" />
-        <img src={tag5} alt="" className="mo-img" />
-        <img src={tag6} alt="" className="mo-img" />
-        <br />
+      <div className="section">
+        <div className="more-1row">
+          <div className="box">
+            <div className="box2-img">
+              <img src={gag1} alt="" className="mo-img" />
+            </div>
+          </div>
+          <div className="box">
+            <div className="box2-img">
+              <img src={tag2} alt="" className="mo-img" />
+            </div>
+          </div>
+          <div className="box">
+            <div className="box2-img">
+              <img src={tag3} alt="" className="mo-img" />
+            </div>
+          </div>
+          <div className="box">
+            <div className="box2-img">
+              <img src={tag4} alt="" className="mo-img" />
+            </div>
+          </div>
+          <div className="box">
+            <div className="box2-img">
+              <img src={tag5} alt="" className="mo-img" />
+            </div>
+          </div>
+          {/* <div className="box">
+            <div className="box2-img">
+              <img src={tag6} alt="" className="mo-img" />
+            </div>
+          </div> */}
+
+          <br />
+        </div>
       </div>
     </>
   );

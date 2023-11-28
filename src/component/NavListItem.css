@@ -16,3 +16,8 @@
 .nav li a:hover .nav li a.active {
   color: var(--primary);
 }
+@media (max-width: 992px) {
+  .nav li a {
+    display: block;
+  }
+}

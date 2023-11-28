@@ -19,33 +19,55 @@ import tag15 from "../images/Mini/ruby-gillman-teenage-kraken.webp";
 function Card() {
   return (
     <div>
+      <div className="categories">
+        <ul>
+          <li className="important">
+            <a href="#">All</a>
+          </li>
+          <li>
+            <a href="#">Hindi</a>
+          </li>
+          <li>
+            <a href="#">Korean</a>
+          </li>
+          <li>
+            <a href="#">English</a>
+          </li>
+          <li>
+            <a href="#">Tamil</a>
+          </li>
+          <li>
+            <a href="#">Other</a>
+          </li>
+        </ul>
+      </div>
       <div className="for-you">
         <div className="box">
           <div className="box-img">
             <img src={gag1} alt="" />
           </div>
-          <h3>Tiger 3</h3>
+          <h3>John wick</h3>
           <span>120min | Action</span>
         </div>
         <div className="box">
           <div className="box-img">
             <img src={tag2} alt="" />
           </div>
-          <h3>Sick</h3>
+          <h3>Blonde</h3>
           <span>120min | Action</span>
         </div>
         <div className="box">
           <div className="box-img">
             <img src={tag3} alt="" />
           </div>
-          <h3>Torimiya</h3>
+          <h3>Thor</h3>
           <span>120min | Action</span>
         </div>
         <div className="box">
           <div className="box-img">
             <img src={tag4} alt="" />
           </div>
-          <h3>The worst of evil</h3>
+          <h3>Tiger-3</h3>
           <span>120min | Action</span>
         </div>
         <div className="box">

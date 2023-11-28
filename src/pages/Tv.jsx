@@ -18,7 +18,32 @@ function Tv() {
     <>
       <div className="tv">
         <h4> TV SHOWS</h4>
+        <div className="t-categories">
+          <div className="categories">
+            <ul>
+              <li className="important">
+                <a href="#">All</a>
+              </li>
+              <li>
+                <a href="#">Hindi</a>
+              </li>
+              <li>
+                <a href="#">Korean</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">Tamil</a>
+              </li>
+              <li>
+                <a href="#">Other</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
+
       <div className="tv-shows">
         <div className="box">
           <div className="box-img">

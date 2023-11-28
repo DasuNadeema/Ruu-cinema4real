@@ -22,12 +22,11 @@ function Footer() {
               <a href="tiktok.com/@ruu_cinema?is_from_webapp=1&sender_device=pc">
                 <i class="bx bxl-tiktok"></i>
               </a>
-            </div>
-            <div className="t-home">
               <a className="to-home" href="#">
-                Back To Home
+                <i class="bx bxs-chevrons-up"></i>
               </a>
             </div>
+            <div className="t-home"></div>
           </div>
         </div>
       </div>
