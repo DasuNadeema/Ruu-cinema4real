@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Tv.css";
+import "../component/Tv.css";
 import tvtag1 from "../images/Mini/bb.jpg";
 import tvtag2 from "../images/Mini/got.jpg";
 import tvtag3 from "../images/Mini/pb.jpg";

@@ -59,11 +59,13 @@
 }
 
 h3 {
+  cursor: pointer;
   color: aliceblue;
   font-weight: 500;
 }
 
 .box span {
+  cursor: pointer;
   color: aliceblue;
   font-weight: 400;
 }

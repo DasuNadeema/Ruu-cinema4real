@@ -1,8 +1,8 @@
 import React from "react";
-import NavListItem from "../component/NavListItem";
+import NavListItem from "./NavListItem";
 import navListData from "../data/navListDate";
-import "../pages/Header.css";
-import Search from "../component/Search,";
+import "../component/Header.css";
+import Search from "./Search,";
 import Logo from "../images/featured_channel.jpg";
 
 export default function Header() {

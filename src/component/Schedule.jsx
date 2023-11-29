@@ -1,5 +1,4 @@
 import React from "react";
-import "../pages/Schedule.css";
 import Card from "./Card";
 
 function Schedule() {

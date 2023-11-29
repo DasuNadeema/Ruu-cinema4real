@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Card.css";
+import "../component/Card.css";
 import gag1 from "../images/Mini/075f284bd2a54e4c9f554d37578986ed.webp";
 import tag2 from "../images/Mini/MV5BNWQ5NGE2YjctYjc0Yi00Yzc1LTgxYTMtMTZiOTU2ZDRiODIwXkEyXkFqcGdeQXVyNjk1Njg5NTA@.webp";
 import tag3 from "../images/Mini/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@.webp";
@@ -15,6 +15,9 @@ import tag12 from "../images/Mini/img5.jpg";
 import tag13 from "../images/Mini/157259.jpg";
 import tag14 from "../images/Mini/inspector-avinash.jpg";
 import tag15 from "../images/Mini/ruby-gillman-teenage-kraken.webp";
+import { Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import InsidePage from "../pages/InsidePage";
 
 function Card() {
   return (
@@ -44,9 +47,11 @@ function Card() {
       <div className="for-you">
         <div className="box">
           <div className="box-img">
-            <img src={gag1} alt="" />
+            <Link to="./InsidePage">
+              <img src={gag1} alt="" />
+            </Link>
           </div>
-          <h3>John wick</h3>
+          <h3> John wick</h3>
           <span>120min | Action</span>
         </div>
         <div className="box">

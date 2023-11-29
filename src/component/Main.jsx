@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Main.css";
+import "../component/Main.css";
 import Schedule from "./Schedule";
 import Card from "./Card";
 
