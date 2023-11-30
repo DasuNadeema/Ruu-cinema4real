@@ -37,7 +37,7 @@ export default function Movie() {
         {/* <img src={img3} alt="" className="m-img2" /> */}
       </div>
       <div className="section">
-        <div className="more-1row">
+        {/* <div className="more-1row">
           <div className="box">
             <div className="box2-img">
               <img src={gag1} alt="" className="mo-img" />
@@ -62,15 +62,14 @@ export default function Movie() {
             <div className="box2-img">
               <img src={tag5} alt="" className="mo-img" />
             </div>
-          </div>
-          {/* <div className="box">
+          </div> */}
+        {/* <div className="box">
             <div className="box2-img">
               <img src={tag6} alt="" className="mo-img" />
-            </div>
-          </div> */}
-
-          <br />
-        </div>
+        //     </div>
+        //   </div> */}
+        // <br />
+        //{" "}
       </div>
     </>
   );

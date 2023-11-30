@@ -47,7 +47,7 @@ function Card() {
       <div className="for-you">
         <div className="box">
           <div className="box-img">
-            <Link to="./InsidePage">
+            <Link to="/InsidePage">
               <img src={gag1} alt="" />
             </Link>
           </div>
