@@ -1,13 +1,12 @@
 import React from "react";
-import NavListItem from "./NavListItem";
-import navListData from "../data/navListDate";
-import "../component/Header.css";
-import Search from "./Search";
-import Logo from "./featured_channel.jpg";
+import NavListItem from "../NavListItem";
+import "../N-components/n-header.css";
+import Search from "../Search";
+import Logo from "../featured_channel.jpg";
 
 export default function Header() {
   return (
-    <header>
+    <header className="n-header">
       <a href="" className="logo">
         <img src={Logo} alt="" />
       </a>

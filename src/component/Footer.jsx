@@ -1,7 +1,6 @@
 import React from "react";
 import "../component/Footer.css";
 import banner from "../images/Mini/banner3.jpg";
-import Logo from "../images/featured_channel.jpg";
 
 function Footer() {
   return (

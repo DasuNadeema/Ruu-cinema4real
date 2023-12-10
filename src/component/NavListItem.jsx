@@ -1,12 +1,14 @@
 import React from "react";
 import "../component/NavListItem.css";
+import { Link } from "react-router-dom";
+import NewPage from "../pages/HomePage";
 
 function NavListItem({ nav }) {
   return (
     <>
       <div className="nav">
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <a href="#">Movies</a>

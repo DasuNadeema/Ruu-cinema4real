@@ -17,7 +17,7 @@ import tag14 from "../images/Mini/inspector-avinash.jpg";
 import tag15 from "../images/Mini/ruby-gillman-teenage-kraken.webp";
 import { Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import InsidePage from "../pages/InsidePage";
+import NewPage from "../pages/NewPage";
 
 function Card() {
   return (
@@ -46,11 +46,11 @@ function Card() {
       </div>
       <div className="for-you">
         <div className="box">
-          <div className="box-img">
-            <Link to="/InsidePage">
+          <Link to="NewPage">
+            <div className="box-img">
               <img src={gag1} alt="" />
-            </Link>
-          </div>
+            </div>
+          </Link>
           <h3> John wick</h3>
           <span>120min | Action</span>
         </div>
