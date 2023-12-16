@@ -13,6 +13,7 @@ import { createBrowserRouter, RouterProvider, Routes } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NewPage from "./pages/NewPage";
+import SecondPage from "./pages/SecondPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/NewPage" element={<NewPage />} />
+        <Route exact path="/SecondPage" element={<SecondPage />} />
       </Routes>
     </>
   );

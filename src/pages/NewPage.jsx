@@ -15,14 +15,15 @@ import wick from "../images/Mini/075f284bd2a54e4c9f554d37578986ed.webp";
 import img2 from "../images/1338709.png";
 import tag2 from "../images/Mini/MV5BNWQ5NGE2YjctYjc0Yi00Yzc1LTgxYTMtMTZiOTU2ZDRiODIwXkEyXkFqcGdeQXVyNjk1Njg5NTA@.webp";
 import Footer from "../component/Footer";
+import HomePage from "./HomePage.jsx";
+import { Link } from "react-router-dom";
 
 function NewPage() {
   return (
     <div className="N-main">
       <div className="h-btn">
-        <a href="#">Home</a>
+        <Link to="HomePage">Home</Link>
       </div>
-
       <div className="n-content">
         <br />
 
@@ -72,12 +73,12 @@ function NewPage() {
           <div className="rating-and-others">
             <span>
               <i class="bx bxs-star"></i> Rating - 7. 2 / 109 min
+              <br />
+              Director: Chad Stahelski <br />
+              Creator: Derek Kolstad
+              <br />
+              Actors: Keanu Reeves, Michael Nyqvist,Alfie Allen
             </span>
-            <br />
-            Director: Chad Stahelski <br />
-            Creator: Derek Kolstad
-            <br />
-            Actors: Keanu Reeves, Michael Nyqvist,Alfie Allen
           </div>
         </div>
       </div>
@@ -112,8 +113,10 @@ function NewPage() {
           <input type="email" placeholder="Email Address" />
         </legend>
         <div className="im">
-          <input type="email" placeholder="Email Address" />
+          <input type="email" placeholder="Type Your Message" />
         </div>
+        <br />
+        <a href="#"> Post Comment</a>
       </div>
       <br />
       <div className="more-movies">

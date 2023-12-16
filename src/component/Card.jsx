@@ -18,6 +18,7 @@ import tag15 from "../images/Mini/ruby-gillman-teenage-kraken.webp";
 import { Link } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import NewPage from "../pages/NewPage";
+import SecondPage from "../pages/SecondPage";
 
 function Card() {
   return (

@@ -5,7 +5,7 @@
   position: relative;
   transition: ease-in-out 1s;
   transform-origin: bottom;
-  margin-left: 6rem;
+  margin-left: 2rem;
   margin-top: 2rem;
   z-index: 1100;
 }
@@ -179,13 +179,22 @@ h2 {
 }
 
 .feedback {
-  max-width: 70%;
-  max-height: 400px;
+  width: 60%;
+  height: 420px;
   border-radius: 10px;
-  padding: 25px;
+  padding: 20px;
   background-color: rgba(39, 36, 36, 0.774);
   margin-top: 3rem;
-  margin-left: 40rem;
+  margin-left: 35rem;
+}
+
+.feedback a {
+  text-decoration: none;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1rem;
 }
 
 .feedback input {
@@ -196,7 +205,7 @@ h2 {
   border-radius: 10px;
   width: 40%;
   padding: 8px;
-  margin: 1rem;
+  margin: 0.8rem;
 }
 
 .feedback p {
@@ -386,6 +395,10 @@ h2 {
     height: 280px;
     object-fit: cover;
   }
+
+  .rating-and-others span {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 810px) {
@@ -414,18 +427,26 @@ h2 {
   .n-img img {
     margin-left: 0rem;
     width: 250px;
-    height: 400px;
+    height: 430px;
   }
 
   .detail-box {
     width: 70%;
     margin-left: 17rem;
   }
+
+  .rating-and-others {
+    margin-top: 1rem;
+  }
+
+  .rating-and-others span {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 600px) {
   .n-img img {
-    width: 300px;
+    width: 280px;
     height: 460px;
   }
 
@@ -437,8 +458,13 @@ h2 {
   .detail-box {
     width: 100%;
     height: 80vh;
-    margin-left: 1rem;
-    margin-top: 25rem;
+    margin-left: 2rem;
+    margin-top: 26rem;
+  }
+
+  .detail-box p {
+    font-size: 16px;
+    width: 70%;
   }
 
   .rating-and-others {
@@ -446,22 +472,111 @@ h2 {
   }
 
   .watch {
+    height: 8vh;
     margin-top: 2rem;
+    padding-top: 1rem;
   }
 
   .watch a {
     font-size: 16px;
   }
+
+  .download-sec {
+    padding-left: 2rem;
+    margin-top: 0rem;
+    margin-left: 3rem;
+    width: 80%;
+  }
+
+  .download-sec span {
+    margin-left: 0rem;
+    font-size: 18px;
+  }
+
+  .download-sec a {
+    font-size: 16px;
+  }
+
+  .feedback {
+    padding: 10px;
+    border-radius: 0px;
+    width: 104%;
+    height: 400px;
+    margin-left: 1rem;
+    margin-top: 30rem;
+  }
+
+  .feedback input {
+    margin: 0.5rem;
+  }
+
+  .more-movies .box2 .box2-img img {
+    margin-left: 3px;
+    border-radius: 0px;
+    width: 104%;
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .box2 .box2-img {
+    height: 250px;
+    width: 104%;
+  }
+  .more-movies h3 {
+    font-size: 17px;
+  }
+
+  .more-movies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    margin-bottom: 0.2rem;
+  }
+
+  .more-movies span {
+    font-size: 13px;
+  }
 }
 
 .h-btn a {
-  text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   text-decoration: none;
   color: aliceblue;
 }
 
 .h-btn {
+  margin-right: 2rem;
   margin-top: 2rem;
   text-align: right;
+}
+
+@media (max-width: 350px) {
+  .detail-box {
+    margin-left: 1rem;
+  }
+
+  .n-img {
+    margin-left: 0rem;
+  }
+
+  .n-img img {
+    width: 250px;
+    height: 420px;
+  }
+
+  .watch a {
+    font-size: 15px;
+  }
+
+  .download-sec {
+    width: 90%;
+    margin-left: 1rem;
+  }
+
+  .download-sec span {
+    font-size: 16px;
+  }
+
+  .download-sec a {
+    font-size: 15px;
+  }
 }
